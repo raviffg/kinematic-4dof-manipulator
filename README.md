@@ -28,10 +28,3 @@ shunt_current_ma, stall_flag`. Median filter of 5, EMA alpha 0.25, threshold
 is idle baseline + 180 mA sustained for 3 samples.
 
 Tested on g++ 13 / Python 3.11. No external dependencies.
-
-
-## Expanded project documentation
-
-The `docs/` directory contains project-specific design notes, verification scenario specifications, operations guides, data contracts, configuration templates, safety notes, and project reference templates.
-
-**Important:** added documents are planning and review aids. They do not claim that tests have been executed, that placeholder configurations are supported runtime profiles, or that this project is certified for physical/clinical/production deployment. Confirm interfaces and limits against implementation and measured evidence.
